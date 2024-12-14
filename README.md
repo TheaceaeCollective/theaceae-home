@@ -1,2 +1,2 @@
 # theaceae-home
-theaceae homepage
+theaceae homepage where we talk about us because we are cool
