@@ -48,6 +48,10 @@ footer {
   padding-bottom: 18px;
 }
 
+footer p {
+  padding-top: 10px;
+}
+
 .siteLogo {
   width: 134px;
   height: 134px;
