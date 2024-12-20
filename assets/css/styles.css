@@ -4,176 +4,180 @@
 /* Global elements, such as headers, footers, and body. */
 /* very dark theme, tried to keep this simple */
 html {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
 *:before,
 *:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Author", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Author", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 /* begin */
 body {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
 
-  width: 100%;
-  min-height: 100vh;
+    width: 100%;
+    min-height: 100vh;
 }
 
 header {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
 }
 
 footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 1260px;
-  padding-top: 200px;
-  padding-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1260px;
+    padding-top: 200px;
+    padding-bottom: 18px;
 }
 
 footer p {
-  padding-top: 10px;
+    padding-top: 6px;
+}
+
+.iAmNoodlesForTheFooter {
+    padding-top: 6px;
 }
 
 .siteLogo {
-  width: 134px;
-  height: 134px;
+    width: 134px;
+    height: 134px;
 
-  margin-left: 50px;
-  margin-top: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 #theaceaeSmileLogo {
-  width: 134px;
-  height: 134px;
+    width: 134px;
+    height: 134px;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
 }
 
 #introWords {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 12px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  width: 100%;
-  max-width: 1260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    max-width: 1260px;
 }
 
 #introLine1 {
-  background-image: radial-gradient(circle at 100% 0%, #ef656e, #ec77ac 98%), linear-gradient(to bottom, #fff, #fff);
-  line-height: 2.08;
-  font-size: 48px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background-image: radial-gradient(circle at 100% 0%, #ef656e, #ec77ac 98%), linear-gradient(to bottom, #fff, #fff);
+    line-height: 2.08;
+    font-size: 48px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #introLine2 {
-  background-image: radial-gradient(circle at 100% 0%, #ef656e, #ec77ac 100%), linear-gradient(to bottom, #fff, #fff);
-  line-height: 1;
-  font-size: 100px;
-  font-weight: 600;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background-image: radial-gradient(circle at 100% 0%, #ef656e, #ec77ac 100%), linear-gradient(to bottom, #fff, #fff);
+    line-height: 1;
+    font-size: 100px;
+    font-weight: 600;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #introLine3 {
-  background-image: radial-gradient(circle at 100% 0%, #ef656e, #ec77ac 100%), linear-gradient(to bottom, #fff, #fff);
-  line-height: 2.78;
-  font-size: 36px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background-image: radial-gradient(circle at 100% 0%, #ef656e, #ec77ac 100%), linear-gradient(to bottom, #fff, #fff);
+    line-height: 2.78;
+    font-size: 36px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .box {
-  width: 100%;
-  max-width: 1260px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 20px;
+    width: 100%;
+    max-width: 1260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
 }
 
 .textHeader {
-  width: 100%;
-  max-width: 704px;
-  font-size: 32px;
-  font-weight: 600;
+    width: 100%;
+    max-width: 704px;
+    font-size: 32px;
+    font-weight: 600;
 }
 
 .textParagraph {
-  width: 100%;
-  max-width: 704px;
+    width: 100%;
+    max-width: 704px;
 }
 
 .italy {
-  font-style: italic;
+    font-style: italic;
 }
 
 .projContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 20px;
-  padding: 10px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 10px 0 0;
 }
 
 .proj {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
 
-  font-size: 30px;
-  font-weight: 600;
-  color: black;
-  text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
 }
 
 .proj img {
-  width: 224px;
-  height: 224px;
+    width: 224px;
+    height: 224px;
 }
 
 .tiny {
-  font-size: 30px;
-  font-weight: 300;
+    font-size: 30px;
+    font-weight: 300;
 }
 
 .oneHundredCigs {
-  padding-top: 100px;
+    padding-top: 100px;
 }
 
 a {
-  color: #ec77ac;
-  text-decoration: none;
+    color: #ec77ac;
+    text-decoration: none;
 }
