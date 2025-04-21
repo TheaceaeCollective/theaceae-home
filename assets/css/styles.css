@@ -137,6 +137,10 @@ main {
     max-width: 704px;
 }
 
+.fullWidth {
+    max-width: 100%;
+}
+
 .italy {
     font-style: italic;
 }
@@ -180,4 +184,58 @@ main {
 a {
     color: #ec77ac;
     text-decoration: none;
+}
+
+@media screen and (max-width: 1356px) {
+    #introLine2 {
+        font-size: 80px;
+    }
+
+    #introWords {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .box {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    body {
+        text-align: center;
+        width: 100%;
+    }
+
+    .siteLogo {
+        margin-left: 0 !important;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    #introWords {
+        text-align: center;
+        align-items: center;
+    }
+
+    #introLine1 {
+        font-size: 40px;
+    }
+
+    #introLine2 {
+        font-size: 60px;
+    }
+
+    #introLine3 {
+        font-size: 28px;
+    }
+
+    .projContainer {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
 }
