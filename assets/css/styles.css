@@ -137,6 +137,10 @@ main {
     max-width: 704px;
 }
 
+.textParagraph1 {
+    font-size: 24px;
+}
+
 .fullWidth {
     max-width: 100%;
 }
